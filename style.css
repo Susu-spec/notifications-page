@@ -1,0 +1,117 @@
+*, *::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.9rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+
+.nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification {
+    display: flex;
+}
+
+.notif__bar + .num__box {
+    margin-left: 1em;
+}
+
+.notif__bar {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.num__box {
+    color: #fff;
+    border-radius: 5px;
+    background: hsl(219, 85%, 26%);
+    padding: 0 .4rem;
+    margin: auto 0;
+}
+
+.num__box h4 {
+    margin: .2rem 0;
+    padding: 0 .3rem;
+}
+
+.light__item {
+    margin: auto 0;
+}
+
+.light__text--link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.light__text--link:hover {
+    color:hsl(219, 85%, 26%);
+}
+
+.notif__box {
+    background: hsl(211, 68%, 94%);
+    padding: .5em;
+    margin: 1rem 0;
+    line-height: 1rem;
+}
+
+.notif__grid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas: "image text"
+                         ". time"
+                         ". msg";
+    column-gap: .6rem;
+}
+
+.notif__img {
+    grid-area: image;
+    padding: 1rem .3rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 100px;
+}
+
+
+.notif__text {
+    grid-area: text;
+}
+
+.notif__text p {
+    margin: 0;
+}
+
+.notif__time {
+    grid-area: time;
+}
+
+.notif__msg {
+    grid-area: msg;
+}
