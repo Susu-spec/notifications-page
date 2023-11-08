@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    max-width: 750px;
 }
 
 
@@ -80,7 +80,7 @@ body {
 }
 
 .notif__box, .notif__msg--text:hover {
-    background: hsl(205, 33%, 90%);
+    background:hsl(210, 60%, 98%);
 }
 
 .notif__grid {
