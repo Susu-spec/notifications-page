@@ -15,8 +15,8 @@ body {
 .container {
     margin: 0 auto;
     padding: 0;
-    width: 90%;
-    max-width: 750px;
+    width: 80%;
+    max-width: 550px;
 }
 
 
@@ -119,8 +119,8 @@ a {
     color: hsl(219, 12%, 42%);
 }
 
-img{
-    width: 50px;
+img {
+    width: 30px;
     height: auto;
 }
 
