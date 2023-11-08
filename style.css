@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 0.8rem;
+    font-size: .75rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 200;
     color: hsl(219, 12%, 42%);
@@ -76,7 +76,7 @@ body {
 .notif__box, .notif__box--two {
     padding: .5rem 0;
     margin: 1rem 0;
-    line-height: 1.1rem;
+    line-height: 1.3rem;
 }
 
 .notif__box, .notif__msg--text:hover {
@@ -89,7 +89,6 @@ body {
 }
 
 .notif__text {
-    margin-top: .3rem;
     width: 100%;
 }
 
@@ -115,8 +114,7 @@ body {
 }
 
 a {
-    text-decoration: none; 
-    color: hsl(219, 12%, 42%);
+    text-decoration: none;
 }
 
 img {
@@ -161,4 +159,8 @@ img {
 
 .post, .group {
     font-weight: 600;
+}
+
+.post {
+    color: hsl(219, 12%, 42%);   
 }
