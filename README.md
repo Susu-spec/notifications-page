@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](images/notifications-page-desktop)
+![Desktop](images/notifications-page-desktop.png)
 ![Mobile](images/notifications-page-mobile.png)
 
 ### Links
